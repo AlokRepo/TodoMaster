@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoMaster</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container mt-5" style="background-image: url('/asset/1349197.png'); background-size: cover; background-position: center; height: 100vh;">
+        <h1 class="text-center text-white">TodoMaster</h1>
+        <form id="todo-form">
+            <div class="form-group">
+                <input type="text" id="todo-input" class="form-control" placeholder="Add new task...">
+            </div>
+            <button id="todo-btn" class="btn btn-primary">Add Task</button>
+        </form>
+        <div id="todo-list" class="mt-5">
+            <!-- Tasks will be rendered here -->
+        </div>
+        <div id="filter" class="mt-5">
+            <button id="all-btn" class="btn btn-secondary">All Tasks</button>
+            <button id="today-btn" class="btn btn-secondary">Today's Tasks</button>
+            <button id="upcoming-btn" class="btn btn-secondary">Upcoming Tasks</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

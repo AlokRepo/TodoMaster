@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.todo {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo:last-child {
+  border-bottom: none;
+}
+
+.todo .todo-text {
+  font-size: 16px;
+}
+
+.todo .todo-date {
+  font-size: 14px;
+  color: #666;
+}
+
+.todo .todo-actions {
+  float: right;
+}
+
+.todo .todo-actions button {
+  padding: 5px;
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo .todo-actions button:hover {
+  background-color: #3e8e41;
+}
