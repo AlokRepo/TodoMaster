@@ -1,4 +1,5 @@
 # TodoMaster
+ https://alokrepo.github.io/TodoMaster/
 
 TodoMaster
 A simple and intuitive todo list app built with HTML, CSS, and JavaScript.
@@ -20,7 +21,7 @@ Technologies Used
 
 Installation
 
-    Clone the repository using git clone https://github.com/your-username/TodoMaster.git
+    Clone the repository using git clone https://github.com/AlokRepo/TodoMaster.git
     Open the index.html file in a web browser to run the app
 
 Usage
